@@ -1,6 +1,3 @@
-/**
- * Seat entity representing a seat in a coach of a train
- */
 public class Seat {
     private String seatNumber;
     private SeatType seatType;
