@@ -1,16 +1,10 @@
 import java.util.*;
 
-/**
- * IRCTC Application - Demo/Client for the Low Level Design
- * This demonstrates how the IRCTC system can be used
- */
 public class IRCTCApp {
     public static void main(String[] args) {
         try {
-            // Initialize Railway System
             RailwaySystem railwaySystem = new RailwaySystem();
             
-            // ===== 1. ADD STATIONS =====
             System.out.println("===== Adding Stations =====");
             Station delhi = new Station("DLI", "Delhi Junction", "Delhi", "Delhi");
             Station mumbai = new Station("BCT", "Mumbai Central", "Mumbai", "Maharashtra");
